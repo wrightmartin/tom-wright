@@ -1,0 +1,121 @@
+.hero {
+    background-color: rgba(0,0,0,0.1);
+    h1 {
+        letter-spacing: -3px;
+        max-width: 10em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        font-size: 1.5em;
+        opacity: 0.7;
+        max-width: 21em;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.4em;
+    }
+    .button {
+        margin-bottom: 1em;
+    }
+}
+
+.about {
+    @extend .dark-page-section;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.about__blurb {
+    line-height: 1.5em;
+    font-size: .888888889em;
+}
+
+.services {
+    font-size: 0;
+}
+
+.service {
+    font-size: 18px;
+    p {
+        line-height: 1.5em;
+        font-size: .888888889em;
+    }
+}
+
+.service-thumbnail {
+    width: 100%;
+    position: relative;
+    padding: 2.5em 2em 1.5em;
+    h3 {
+        font-size: 2em;
+        line-height: 1.1em;
+        letter-spacing: -1px;
+        color: rgba(255,255,255,0.9);
+    }
+}
+
+.service-thumbnail--coaching {
+    background-color: darken($colour_blue, 15%);
+}
+
+.service-thumbnail--testing {
+    background-color: $colour_orange;
+}
+
+.service-thumbnail--training {
+    background-color: $colour_yellow;
+    color: darken($colour_blue, 15%);
+    h3 {
+        color: darken($colour_blue, 15%);
+    }
+}
+
+.service-icon {
+    margin-bottom: 0.75em;
+    fill: #fff;
+}
+
+.service-icon--weights {
+    fill: darken($colour_blue, 15%);
+}
+
+.service-icon--coaching {
+    position: relative;
+    top: 10px;
+}
+
+.specialities-title {
+    font-size: 0.777777778em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.4);
+    margin-bottom: 1em;
+}
+
+.qualification-unit {
+    display: inline-block;
+    vertical-align: top;
+    width: 44.880239521%;
+    margin-right: 5.119760479%;
+    h4 {
+        font-size: .888888889em;
+        text-transform: uppercase;
+    }
+    p {
+        color: lighten($colour-blue, 40%);
+        font-size: 0.777777778em;
+        line-height: 1.5em;
+    }
+    a {
+        text-decoration: underline;
+        color: lighten($colour-blue, 40%);
+        &:hover,
+        &:active,
+        &:focus {
+            color: #fff;
+        }
+    }
+}
+
+.qualification-unit--large {
+    width: 100%;
+    margin: 0;
+}

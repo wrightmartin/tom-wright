@@ -1,0 +1,40 @@
+
+$nova: "Proxima Nova", "Helvetica Neue", Arial, Helvetica, serif;
+
+$body_typeface: $nova;
+$body_typeface_semibold: 500;
+$body_typeface_bold: 700;
+$heading_typeface: $nova;
+$heading_typeface_bold: 700;
+
+$colour_blue: #177BBD;
+$colour_green: #01BFA9;
+$colour_red: #F37D7D;
+$colour_purple: #DC73E6;
+$colour_orange: #EB6340;
+$colour_yellow: #FDC83B;
+$colour_white: #FFFFFF;
+$colour_off_white: #F4F4F4;
+$colour_lighter_grey: #E9E9E9;
+$colour_light_grey: #D8D8D8;
+$colour_grey: #CCCCCC;
+$colour_mid_grey: #999999;
+$colour_dark_grey: #666666;
+$colour_black: #333333;
+
+$colour_background: $colour_blue;
+$colour_links: $colour_white;
+$colour_borders: $colour_lighter_grey;
+
+$border_radius: 5px;
+
+$size_font-base: 18px;
+
+$giant_screen: 67.5em;
+$large_screen: 56em;
+$medium_screen: 44em;
+$high_dpi_screen: '-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi';
+
+$animation-short: 0.2s ease-out;
+
+

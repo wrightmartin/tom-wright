@@ -1,0 +1,40 @@
+.site-footer {
+    @extend %page-section;
+    @include clearfix;
+    .container {
+        @media (min-width: $medium_screen) {
+            padding:  0 2em;
+            position: relative;
+        }
+    }
+}
+
+.tiny-logo {
+
+}
+
+.footer__about {
+    p {
+        font-size: 0.777777778em;
+        line-height: 1.6em;
+    }
+    a {
+        text-decoration: underline;
+        &:hover,
+        &:active,
+        &:focus {
+            color:darken($colour_links, 10%);
+        }
+    }
+    nav {
+        position: relative;
+        top: 2.5em;
+        font-size: 0.777777778em;
+        text-align: right;
+        a {
+            margin-right: 1em;
+        }
+    }
+}
+
+
