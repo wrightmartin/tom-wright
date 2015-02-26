@@ -2,7 +2,7 @@
 title: Tom Wright - Personal Training
 email: tom@tomwrightpt.co.uk
 description: > # Personal, efficient, and affordable training & coaching services for people of all abilities
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/tom-wright/" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
