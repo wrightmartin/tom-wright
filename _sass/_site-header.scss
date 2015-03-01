@@ -18,10 +18,7 @@
     height: 70px;
     width: 231px;
     background-size: 231px 70px;
-    background-image: url('../assets/img/tom-wright-logo.png');
-    @media ($high-dpi-screen) {
-        background-image: url('../assets/img/tom-wright-logo@2.png');
-    }
+    background-image: url('../assets/img/tom-wright-logo.svg');
     background-position: top left;
     background-repeat: no-repeat;
     @media (min-width: $medium_screen) {
@@ -50,6 +47,9 @@
     width: 3em;
     height: 3em;
     font-weight: bold;
+    background-position: center;
+    background-size: 2em;
+    background-repeat: no-repeat;
     @media (min-width: $medium_screen) {
         font-size: 16px;
         margin: 0 0 0 1em;
@@ -58,8 +58,22 @@
 
 .social__link--twitter {
     background-color: #4099ff;
+    background-image: url('../assets/img/twitter.svg');
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: darken(#4099ff, 10%);
+    }
+
 }
 
 .social__link--facebook {
     background-color: #3B5998;
+    background-image: url('../assets/img/facebook.svg');
+    background-size: 0.9em;
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: darken(#3B5998, 10%);
+    }
 }
