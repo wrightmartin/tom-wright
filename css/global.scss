@@ -295,3 +295,57 @@ tfoot {
     max-width: 36em;
     margin: 0 auto;
 }
+
+.site-social {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 0;
+    @media (min-width: $medium_screen) {
+        border: 0;
+        text-align: left;
+        position: absolute;
+        right: 36px;
+        top: 10px;
+    }
+}
+
+.social__link {
+    color: $colour_white;
+    display: inline-block;
+    @extend .image-replacement;
+    font-size: 14px;
+    width: 3em;
+    height: 3em;
+    font-weight: bold;
+    background-position: center;
+    background-size: 2em;
+    background-repeat: no-repeat;
+    margin: 0 1em 0 0;
+    @media (min-width: $medium_screen) {
+        font-size: 16px;
+        margin: 0 0 0 1em;
+    }
+}
+
+.social__link--twitter {
+    background-color: #4099ff;
+    background-image: url('../assets/img/twitter.svg');
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: darken(#4099ff, 10%);
+    }
+
+}
+
+.social__link--facebook {
+    background-color: #3B5998;
+    background-image: url('../assets/img/facebook.svg');
+    background-size: 0.9em;
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: darken(#3B5998, 10%);
+    }
+}
+
