@@ -1,5 +1,5 @@
 .hero {
-    background-color: rgba(0,0,0,0.1);
+    background-color: darken($colour_blue, 5%);
     h1 {
         letter-spacing: -3px;
         max-width: 10em;
@@ -21,7 +21,6 @@
 
 .about {
     @extend .dark-page-section;
-    background-color: rgba(0,0,0,0.1);
 }
 
 .about__blurb {
