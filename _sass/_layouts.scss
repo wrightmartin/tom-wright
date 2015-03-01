@@ -102,14 +102,24 @@
             width: 25%;
         }
     }
+
 }
 
 .layout-grid-boxes--thirds {
-
     .grid-box {
         font-size: 0;
         @media (min-width: $giant_screen) {
             width: 33.333333333%;
+        }
+    }
+    .grid-box--one {
+        @media (min-width: $medium_screen) and (max-width: $giant_screen)  {
+            width: 100%;
+        }
+    }
+    .grid-box--two, .grid-box--three, {
+        @media (min-width: $medium_screen) and (max-width: $giant_screen)  {
+            width: 50%;
         }
     }
 }
