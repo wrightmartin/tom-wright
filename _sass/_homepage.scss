@@ -1,28 +1,39 @@
 .hero {
     background-color: darken($colour_blue, 5%);
+    background-image: url('../assets/img/bg-small.jpg');
+    @media (min-width: $medium_screen) {
+      background-image: url('../assets/img/bg.jpg');
+    }
+    background-size: cover;
+    background-repeat:  no-repeat;;
+    text-align: left;
+    background-position: top right;
     h1 {
         letter-spacing: -2px;
         max-width: 10em;
-        margin-left: auto;
-        margin-right: auto;
+        font-size: 2.7em;
+        line-height: 1em;
         @media (min-width: $medium_screen) {
-            letter-spacing: -3px;
+            letter-spacing: -4px;
+            font-size: 7em;
         }
     }
     p {
-        font-size: 1.25em;
-        opacity: 0.7;
-        max-width: 21em;
-        margin-left: auto;
-        margin-right: auto;
+        font-size: 1.45em;
+        opacity: 0.8;
+        max-width: 27em;
         line-height: 1.25em;
         @media (min-width: $medium_screen) {
             line-height: 1.4em;
-            font-size: 1.5em;
+            font-size: 1.8em;
         }
     }
     .button {
         margin-bottom: 1em;
+        width: 100%;
+        @media (min-width: $medium_screen) {
+          width: auto;
+        }
     }
 }
 
@@ -59,6 +70,9 @@
         line-height: 1.1em;
         letter-spacing: -1px;
         color: rgba(255,255,255,0.9);
+    }
+    a {
+      text-decoration: underline;
     }
 }
 
@@ -102,8 +116,10 @@
 .qualification-unit {
     display: inline-block;
     vertical-align: top;
-    width: 44.880239521%;
-    margin-right: 5.119760479%;
+    @media (min-width: $medium_screen) {
+      width: 44.880239521%;
+      margin-right: 5.119760479%;
+    }
     h4 {
         font-size: .888888889em;
         text-transform: uppercase;
