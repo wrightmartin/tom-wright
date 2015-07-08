@@ -1,11 +1,11 @@
 # Site settings
 title: Tom Wright - Personal Training
 email: tom@tomwrightpt.co.uk
-description: > # Personal, effective, and affordable training & coaching services for people of all abilities
+description: > # Personal, effective, and affordable training & coaching services for people of all abilities. Personal Training and Sports Coaching services, based in Shrewsbury Shropshire
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://tomwrightpt.co.uk" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: tomwrightpt
+github_username:  wrightmartin
 permalink: pretty
 # Build settings
 markdown: kramdown
